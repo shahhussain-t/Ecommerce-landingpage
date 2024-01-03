@@ -1,0 +1,249 @@
+body{
+    user-select: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+button{
+    background-color: #fed700;
+}
+
+.customclass{
+    width:45% !important;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* navbar  */
+
+.customborder{
+    border-radius: 100px;
+}
+
+.customId{
+    margin-right: 15%;
+}
+
+.abc{
+    width:350px;
+}
+
+i{
+    color:white;
+}
+
+.customdrop{
+
+    padding:10px;
+    padding-left: 20px;
+    border-right: 1px solid grey;
+}
+
+.cutomreuro{
+ margin-left: 600px; 
+}
+
+.cutomreuro > p > i{
+    color: black;
+}
+
+.custombutton{
+   
+    padding: 9px 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    background-color:  #333e48;
+    margin-left:500px;
+}
+
+/* cards css  */
+
+.forimage1{
+    background-image: url("https://demo.codezeel.com/prestashop/PRS17/PRS170412/PRS03/img/cms/sub-banner-1.jpg");
+    border-radius: 10px;
+    
+}
+
+.forimage2{
+    background-image: url("https://demo.codezeel.com/prestashop/PRS17/PRS170412/PRS03/img/cms/sub-banner-2.jpg");
+    border-radius: 10px;
+}
+
+.forimage3{
+    background-image: url("https://demo.codezeel.com/prestashop/PRS17/PRS170412/PRS03/img/cms/sub-banner-3.jpg");
+    border-radius: 10px;
+
+}
+
+.yellow{
+    background-color: #fed700;
+    width:45% !important;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+/* products */
+.product-grid{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.product-grid .product-image{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.product-grid .product-image a.image{display: block; }
+.product-grid .product-image img{
+    width: 100%;
+    height: auto;
+}
+
+.product-grid .product-content{
+    background: #fff;
+    padding: 25px;
+    font-size: 14px;
+    margin: 0 0 7px;
+}
+
+/* coupon card  css  */
+.bg-imagezone{
+  color: white;
+  background-image: url("https://demo.codezeel.com/prestashop/PRS17/PRS170412/PRS03/img/cms/offer-banner.jpg");
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* footer css */
+.custommargin{
+    margin:15px;
+}
+
+.custommar{
+    background-color: #333e48;
+    color: white;
+}
+
+.footer {
+    list-style-type: none !important;
+    text-transform: capitalize;
+}
+
+.headfoot{
+    border-bottom: 2px solid yellow;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer {
+  margin-top: 30px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer input[type="email"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.footer img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+/* last section of footer  */
+
+div .footer3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  div .footer3 li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  div .footer3 li {
+    display: inline;
+    margin-left: 40px;
+    font-size: 10px;
+    color: black;
+  }
+
+  div.footer3 ul li a{
+    color: white;
+    font-size: large;
+  }
+
+/* navebar */
+
+  @media (max-width: 767px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+
+    .dropdown.customdrop {
+      margin-bottom: 10px;
+    }
+
+    .navbar-nav .nav-item {
+      margin-bottom: 5px;
+    }
+
+    .cutomreuro {
+      text-align: center;
+    }
+  }
+
+  /* carousel  */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 1.5rem;
+}
+@media (max-width: 576px) {
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: 1rem;
+  }
+}
+
+/* cards  */
+@media (max-width: 400px) {
+  .yellow , .under, .forimage1 h2 , .forimage2 h2 , .forimage3 h2 {
+    font-size: 10px;
+  }
+}
+
+/* footer  */
+@media (max-width: 767px) {
+    .footer .col-sm-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer .col-sm-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
